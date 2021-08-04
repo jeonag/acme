@@ -7,14 +7,14 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Ingreso de datos de las entidades
+ * Default data entry
  *
  * @author JOG.
  * @version 1.0
  */
 public class EnterData {
     /**
-     * Enter data from working hours
+     * Enter data of labor working hours
      *
      * @return
      */

@@ -28,7 +28,7 @@ public class ValidateOverlap {
                 int inicioHoraPago = Integer.parseInt(tiempoPago.getStartTime());
                 int finHoraPago = Integer.parseInt(tiempoPago.getEndTime());
                 // COMPARO INTERVALO HORAS
-                if (validateOverlap(inicioHoraTrabajo, inicioHoraPago, finHoraTrabajo, finHoraPago)) {
+                if (validateOverlap(inicioHoraTrabajo, inicioHoraPago, finHoraTrabajo, finHoraPago, valor.getName())) {
                     return true;
                 }
             }
@@ -44,10 +44,10 @@ public class ValidateOverlap {
      * @param finHoraPago
      * @return
      */
-    private boolean validateOverlap(int inicioHoraTrabajo, int inicioHoraPago, int finHoraTrabajo, int finHoraPago) {
+    private boolean validateOverlap(int inicioHoraTrabajo, int inicioHoraPago, int finHoraTrabajo, int finHoraPago, String name) {
         if (inicioHoraTrabajo >= inicioHoraPago && inicioHoraTrabajo < finHoraPago && finHoraTrabajo > finHoraPago) {
-            System.out.println("The range entered: [" + inicioHoraTrabajo + "," + finHoraTrabajo + "] and " +
-                    "[" + inicioHoraPago + "," + finHoraPago + "] overlap");
+            System.out.println("Payment to " + name + ": The range entered [" + inicioHoraTrabajo + "," + finHoraTrabajo + "] and " +
+                    "[" + inicioHoraPago + "," + finHoraPago + "] overlap!");
             return true;
         } else {
             return false;
