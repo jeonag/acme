@@ -9,15 +9,18 @@
 - En el componente Data se genera información por default de los días, rango de horarios laborales y su correspondiente valor a pagar.
 
 #### Diagrama de arquitectura:
-<a href="https://drive.google.com/uc?export=view&id=1UIIqXNYWIDxBaZqGj5uibyTQCCHHEuY0" ><img src="https://drive.google.com/uc?export=view&id=1UIIqXNYWIDxBaZqGj5uibyTQCCHHEuY0" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture"/>
+![arquitectura](https://user-images.githubusercontent.com/62773610/128308799-2f1e8cee-c870-4484-ad9c-8a7effc24077.JPG)
+
   
 ## Modelo:
-<a href="https://drive.google.com/uc?export=view&id=13hsURga0RNfwgSXmbU8U0JuLMsiGq3hb" ><img src="https://drive.google.com/uc?export=view&id=13hsURga0RNfwgSXmbU8U0JuLMsiGq3hb" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture"/>
+![Modelo](https://user-images.githubusercontent.com/62773610/128308847-71271a75-4904-4fc8-8adf-ef0753d1ff9f.JPG)
+
 
 ## Metodología:
 - Para la gestión del proyecto se usó la herramienta trello junto con Canvas, lo cual permitió llevar una lista de tareas o de actividades por hacer, actividades en desarrollo y actividades culminadas, facilitando el desarrollo y la culminación del proyecto.
 #### Esquema del proyecto acme en trello:
-<a href="https://drive.google.com/uc?export=view&id=13OqUr8Gyn1hYUPRmV9fd9HpvPjEcTR63" ><img src="https://drive.google.com/uc?export=view&id=13OqUr8Gyn1hYUPRmV9fd9HpvPjEcTR63" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture"/>
+![trello](https://user-images.githubusercontent.com/62773610/128308796-e186beb5-b680-4a0a-8cec-4bd1da4d5a05.JPG)
+
 
 ## Compilación del programa "acme":
 - Para el desarrollo del programa se utilizó el lenguaje de programación java.
