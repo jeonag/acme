@@ -9,10 +9,10 @@
 - En el componente Data se genera información por default de los días, rango de horarios laborales y su correspondiente valor a pagar.
 
 #### Diagrama de arquitectura:
-<a href="https://drive.google.com/uc?export=view&id=1UIIqXNYWIDxBaZqGj5uibyTQCCHHEuY0"><img src="https://drive.google.com/uc?export=view&id=1UIIqXNYWIDxBaZqGj5uibyTQCCHHEuY0" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-
+<a href="https://drive.google.com/uc?export=view&id=1UIIqXNYWIDxBaZqGj5uibyTQCCHHEuY0" ><img src="https://drive.google.com/uc?export=view&id=1UIIqXNYWIDxBaZqGj5uibyTQCCHHEuY0" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture"/>
+  
 ## Modelo:
-<a href="https://drive.google.com/uc?export=view&id=13hsURga0RNfwgSXmbU8U0JuLMsiGq3hb"><img src="https://drive.google.com/uc?export=view&id=13hsURga0RNfwgSXmbU8U0JuLMsiGq3hb" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=13hsURga0RNfwgSXmbU8U0JuLMsiGq3hb" ><img src="https://drive.google.com/uc?export=view&id=13hsURga0RNfwgSXmbU8U0JuLMsiGq3hb" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture"/>
 
 ## Metodología:
 - Para la gestión del proyecto se usó la herramienta trello junto con Canvas, lo cual permitió llevar una lista de tareas o de actividades por hacer, actividades en desarrollo y actividades culminadas, facilitando el desarrollo y la culminación del proyecto.
