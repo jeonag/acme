@@ -70,7 +70,7 @@ String path = "..\\salary-employees.txt";
 ```
 String path = "scr\\..\\salary-employees.txt";
 ```
-* Verificar el se pegó solo dos `\\`
+* Verificar que se pegó solo dos `\\`
 6. Guardar cambios.
 7. Abrir la clase `"Main.java"`, que se encuentra dentro del package `acme`
 8. Ejecutar el progama.
