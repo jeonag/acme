@@ -24,7 +24,7 @@ public class ValidateOverlap {
             int inicioHoraTrabajo = Integer.parseInt(valor.getStartTime());
             int finHoraTrabajo = Integer.parseInt(valor.getEndTime());
 
-            for (WorkingHours tiempoPago : listaJornadaTrabajo) {
+			for (WorkingHours tiempoPago : listaJornadaTrabajo) {
                 int inicioHoraPago = Integer.parseInt(tiempoPago.getStartTime());
                 int finHoraPago = Integer.parseInt(tiempoPago.getEndTime());
                 // COMPARO INTERVALO HORAS

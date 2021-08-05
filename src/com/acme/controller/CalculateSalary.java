@@ -24,6 +24,7 @@ public class CalculateSalary {
 	public Integer getSalary(List<Employee> listaRegistroTrabajo, List<Payments> listaHoraPagos) {
 		int totalSalary = 0;
 		for (Employee item : listaRegistroTrabajo) {
+		
 			int inicioHoraTrabajo = Integer.parseInt(item.getStartTime());
 			int finHoraTrabajo = Integer.parseInt(item.getEndTime());
 			// compares the registration day with the base day
@@ -83,13 +84,21 @@ public class CalculateSalary {
 	 * @param listaHoraPagos
 	 * @param listRegistroEmpleado
 	 */
-	public void getAllSalaries(List<WorkingHours> listaJornadaTrabajo, List<Payments> listaHoraPagos, List<String> listRegistroEmpleado) {
+	public void getAllSalaries(List<WorkingHours> listaJornadaTrabajo, List<Payments> listaHoraPagos,
+			List<String> listRegistroEmpleado) {
+
 		// List employee register
-		CleanRegister listCleanRegister = new CleanRegister();
+		CleanRegister cleanRegister = new CleanRegister();
 		// Validate Overlap
 		ValidateOverlap validateOverlap = new ValidateOverlap();
 		for (String item : listRegistroEmpleado) {
-			List<Employee> listaRegistroTrabajo = listCleanRegister.cleanRegister(item);
+			if (item.isEmpty()) {
+				return;
+			}
+			if(cleanRegister.validateFormat(item)) {
+				return;
+			}
+			List<Employee> listaRegistroTrabajo = cleanRegister.cleanRegister(item);
 			if (validateOverlap.validateInterval(listaRegistroTrabajo, listaJornadaTrabajo)) {
 				return;
 			}
@@ -104,8 +113,7 @@ public class CalculateSalary {
 	 * @return
 	 */
 	private String getResult(List<Employee> listaRegistroTrabajo, List<Payments> listaHoraPagos) {
-		CalculateSalary calculateSalary = new CalculateSalary();
-		Integer salarioHoras = calculateSalary.getSalary(listaRegistroTrabajo, listaHoraPagos);
+		Integer salarioHoras = getSalary(listaRegistroTrabajo, listaHoraPagos);
 		return "The amount to pay " + listaRegistroTrabajo.get(0).getName() + " is: " + salarioHoras;
 	}
 }

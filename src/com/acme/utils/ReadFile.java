@@ -22,7 +22,8 @@ public class ReadFile {
      * @throws IOException
      */
     public List<String> readTxtFile() throws IOException {
-        File file = new File("C:\\Users\\JHON\\Desktop\\test.txt");
+    	String path = "scr\\..\\salary-employees.txt";
+        File file = new File(path);
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String read;
         List<String> listRead = new ArrayList<>(); 

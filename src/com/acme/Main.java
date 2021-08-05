@@ -1,16 +1,16 @@
 package com.acme;
 
-import com.acme.controller.CalculateSalary; 
+import com.acme.controller.CalculateSalary;
 import com.acme.model.WorkingHours;
 import com.acme.model.Payments;
 import com.acme.data.EnterData;
-import com.acme.utils.ReadFile; 
+import com.acme.utils.ReadFile;
 
 import java.io.IOException;
 import java.util.List;
 
 /**
- * This class shows the results of employees salaries
+ * This main method that shows the results of employees salaries
  *
  * @author JOG.
  * @version 1.0
@@ -23,7 +23,7 @@ public class Main {
 		List<WorkingHours> listaJornadaTrabajo = enterData.registerWorkingHours();
 		List<Payments> listaHoraPagos = enterData.registerDataBase();
 		// Read register from txt file
-		ReadFile readFile = new ReadFile(); 
+		ReadFile readFile = new ReadFile();
 		List<String> listRegistroEmpleado = readFile.readTxtFile();
 
 		CalculateSalary calculateSalary = new CalculateSalary();
