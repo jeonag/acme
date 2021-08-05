@@ -36,7 +36,7 @@ git clone https://github.com/jeonag/acme
 ```
 javac com\acme\Main.java
 ```
-* OJO: Si ejecuta el comando desde gitbash cambiar `"\"` por `"/"` tanto en el comando de la Instrucción 3 y 4.
+* **OJO: Si ejecuta el comando desde gitbash cambiar `"\"` por `"/"` tanto en el comando de la Instrucción 3 y 4.**
 4. Luego ejecutar el comando:
 ```
 java com.acme.Main
