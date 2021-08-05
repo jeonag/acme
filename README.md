@@ -31,11 +31,12 @@
 ```
 git clone https://github.com/jeonag/acme
 ```
-2. Ubicarse dentro del directorio `acme/src` y abrir el cmd en la dirección de ese directorio.
+2. Ubicarse dentro del directorio `acme/src` y abrir el **cmd** en la dirección de ese directorio.
 3. Ejecutar el siguiente comando:
 ```
 javac com\acme\Main.java
 ```
+* OJO: Si ejecuta el comando desde gitbash cambiar `"\"` por `"/"` tanto en el comando de la Instrucción 3 y 4.
 4. Luego ejecutar el comando:
 ```
 java com.acme.Main
@@ -46,7 +47,7 @@ java com.acme.Main
 1. En el explorador de archivos ubicarse dentro del directorio acme
 2. Abrir el archivo `"salary-employees.txt"`
 3. Editar el archivo y guardar.
-4. Ubicarse en el directorio `acme/src` y abrir el cmd en esa dirección
+4. Ubicarse en el directorio `acme/src` y abrir el **cmd** en esa dirección
 5. Ejecutar el comando: 
 ```
 java com.acme.Main
