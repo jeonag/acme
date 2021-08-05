@@ -22,7 +22,7 @@ public class ReadFile {
      * @throws IOException
      */
     public List<String> readTxtFile() throws IOException {
-    	String path = "scr\\..\\salary-employees.txt";
+    	String path = "..\\salary-employees.txt";
         File file = new File(path);
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String read;
