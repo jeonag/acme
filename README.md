@@ -17,7 +17,7 @@
 
 
 ## Metodología:
-- Para la gestión del proyecto se usó la herramienta trello junto con Canvas, lo cual permitió llevar una lista de tareas o de actividades por hacer, actividades en desarrollo y actividades culminadas, facilitando el desarrollo y la culminación del proyecto.
+- Para la gestión del proyecto se usó la herramienta trello junto con Canvas, enfocándome en llevar una lista de tareas o de actividades por hacer, actividades en desarrollo y actividades culminadas, facilitando el desarrollo y la culminación del proyecto.
 #### Esquema del proyecto acme en trello:
 ![trello](https://user-images.githubusercontent.com/62773610/128308796-e186beb5-b680-4a0a-8cec-4bd1da4d5a05.JPG)
 
@@ -70,6 +70,7 @@ String path = "..\\salary-employees.txt";
 ```
 String path = "scr\\..\\salary-employees.txt";
 ```
+* Verificar el se pegó solo dos `\\`
 6. Guardar cambios.
 7. Abrir la clase `"Main.java"`, que se encuentra dentro del package `acme`
 8. Ejecutar el progama.
