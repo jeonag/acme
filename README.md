@@ -31,7 +31,7 @@
 ```
 git clone https://github.com/jeonag/acme
 ```
-2. Ubicarse dentro de la carpeta `acme/src` y abrir el cmd en la dirección de ese directorio.
+2. Ubicarse dentro del directorio `acme/src` y abrir el cmd en la dirección de ese directorio.
 3. Ejecutar el siguiente comando:
 ```
 javac com\acme\Main.java
